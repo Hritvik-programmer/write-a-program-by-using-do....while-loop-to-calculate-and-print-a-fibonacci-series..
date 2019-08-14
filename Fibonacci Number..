@@ -1,0 +1,20 @@
+ #include<stdio.h>
+ int main()
+{
+  int n,f,f1,f2;
+  printf("Enter a fibonacci number:");
+  scanf("%d",&n);
+  f1=-1;
+  f2=1;
+  do 
+ {
+   f=f1+f2;
+   f1=f2;
+   f2=f;
+   printf("   %d\n",f);
+   n--;
+   
+  }
+   while(n>0);
+ }   
+   
